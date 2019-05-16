@@ -19,7 +19,7 @@ FFBNET : LIGHTWEIGHT BACKBONE FOR OBJECT DETECTION BASED FEATURE FUSION BLOCK
 
 ## Installation
 - Install [PyTorch 0.3.1](http://pytorch.org/) by selecting your environment on the website and running the appropriate command.
-- Clone this repository. This repository is mainly based on[FSSD](https://github.com/lzx1413/PytorchSSD), and a huge thank to him.
+- Clone this repository. This repository is mainly based on[lzx-FSSD](https://github.com/lzx1413/PytorchSSD), and a huge thank to him.
   * Note: We currently only support Python 3.5.
 - Compile the nms and coco tools:
 ```Shell
