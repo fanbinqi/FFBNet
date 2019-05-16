@@ -48,6 +48,8 @@ sh data/scripts/VOC2012.sh # <directory>
 
 ## Training
 ```Shell
-# Put vgg16_reducedfc.pth, and mobilenet_1.pth in weights and 
+# Put vgg16_reducedfc.pth, and mobilenet_1.pth in a new folder weights and 
 python train_test_mob.py or python train_test_vgg.py
 ```
+
+If you are interested in this project, please QQ me (374873360)
