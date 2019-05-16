@@ -11,8 +11,8 @@ FFBNET : LIGHTWEIGHT BACKBONE FOR OBJECT DETECTION BASED FEATURE FUSION BLOCK
 | Pelee |   70.9   |            -             |
 | SSD |   77.2   |            160            |
 | STDN | 78.1 |            41             |
-| FSSD | 78.8 |            140             |
-| RefineDet |  80.0  |     40      |
+| FSSD | 78.8 |            150             |
+| RefineDet |  80.0  |     -      |
 | FFBNet |   73.54   |       185        |
 | VGG-FFB |   80.2   |      142        |
 
