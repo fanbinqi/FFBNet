@@ -44,12 +44,12 @@ sh data/scripts/VOC2012.sh # <directory>
 
 ## Training
 - First download the fc-reduced [VGG-16](https://arxiv.org/abs/1409.1556) PyTorch base network weights at: [BaiduYun Driver](https://pan.baidu.com/s/1nzOgaL8mAPex8_HLU4mb8Q), password is `mu59`.
-- MobileNet pre-trained basenet is ported from [MobileNet-Caffe](https://github.com/shicai/MobileNet-Caffe), which achieves slightly better accuracy rates than the original one reported in the [paper](https://arxiv.org/abs/1704.04861), weight file is available at: [BaiduYun Driver](https://pan.baidu.com/s/1LXq3p6IOoQ6YJMY0xhRkLQ), password is `f7oe`.
+- MobileNet is reported in the [paper](https://arxiv.org/abs/1704.04861), weight file is available at: [BaiduYun Driver](https://pan.baidu.com/s/1LXq3p6IOoQ6YJMY0xhRkLQ), password is `f7oe`.
 
 ```Shell
 # Put vgg16_reducedfc.pth, and mobilenet_1.pth in a new folder weights and 
 python train_test_mob.py or python train_test_vgg.py
 ```
-### Personal advice: when use Mobilenet v1 to train voc datasets, use a higher learning rate at the beginning, The convergence performance may be better.
+### Personal advice: when use Mobilenet v1 to train voc datasets, use a higher learning rate at the beginning, the convergence performance may be better.
 
 If you are interested in this paper or interested in lightweight detectors, please QQ me (374873360)
