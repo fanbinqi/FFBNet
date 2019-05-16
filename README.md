@@ -1,12 +1,25 @@
-# FFBNet
+## FFBNet
 FFBNET : LIGHTWEIGHT BACKBONE FOR OBJECT DETECTION BASED FEATURE FUSION BLOCK
 
+## Our paper has been accepted by IEEE ICIP2019 for presentention.
 
-
+### VOC2007 Test
+| System                                   |  *mAP*   | **FPS** (1080Ti) |
+| :--------------------------------------- | :------: | :-----------------------: |
+| Mob-SSD |   68   |            190             |
+| Tiny-Yolo v3 |   61.3   |           220             |
+| Pelee |   70.9   |            -             |
+| SSD |   77.2   |            160            |
+| DSSD |  78.6   |            9.5             |
+| STDN | 78.1 |            41             |
+| FSSD | 78.8 |            140             |
+| RefineDet |  80.0  |     40      |
+| FFBNet |   73.54   |       185        |
+| VGG-FFB |   80.2   |      142        |
 
 ## Installation
-- Install [PyTorch-0.2.0-0.3.1](http://pytorch.org/) by selecting your environment on the website and running the appropriate command.
-- Clone this repository. This repository is mainly based on[RFBNet](https://github.com/ruinmessi/RFBNet), [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch) and [Chainer-ssd](https://github.com/Hakuyume/chainer-ssd), a huge thank to them.
+- Install [PyTorch 0.3.1](http://pytorch.org/) by selecting your environment on the website and running the appropriate command.
+- Clone this repository. This repository is mainly based on[FSSD](https://github.com/lzx1413/PytorchSSD)a huge thank to him.
   * Note: We currently only support Python 3+.
 - Compile the nms and coco tools:
 ```Shell
