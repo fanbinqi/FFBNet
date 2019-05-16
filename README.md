@@ -25,20 +25,8 @@ FFBNET : LIGHTWEIGHT BACKBONE FOR OBJECT DETECTION BASED FEATURE FUSION BLOCK
 ```Shell
 ./make.sh
 ```
-Note*: Check you GPU architecture support in utils/build.py, line 131. Default is:
 
-``` 
-'nvcc': ['-arch=sm_52',
-```
-- Install [pyinn](https://github.com/szagoruyko/pyinn) for MobileNet backbone:
-```Shell
-pip install git+https://github.com/szagoruyko/pyinn.git@master
-```
-- Then download the dataset by following the [instructions](#download-voc2007-trainval--test) below and install opencv. 
-```Shell
-conda install opencv
-```
-Note: For training, we currently  support [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) and [COCO](http://mscoco.org/). 
+Note: For training, we currently support [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) and [COCO](http://mscoco.org/). 
 
 ## Datasets
 To make things easy, we provide simple VOC and COCO dataset loader that inherits `torch.utils.data.Dataset` making it fully compatible with the `torchvision.datasets` [API](http://pytorch.org/docs/torchvision/datasets.html).
@@ -56,4 +44,10 @@ sh data/scripts/VOC2007.sh # <directory>
 ```Shell
 # specify a directory for dataset to be downloaded into, else default is ~/data/
 sh data/scripts/VOC2012.sh # <directory>
+```
+
+## Training
+```Shell
+# Put vgg16_reducedfc.pth, and mobilenet_1.pth in weights and 
+python train_test_mob.py or python train_test_vgg.py
 ```
