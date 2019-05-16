@@ -47,6 +47,6 @@ sh data/scripts/VOC2012.sh # <directory>
 # Put vgg16_reducedfc.pth, and mobilenet_1.pth in a new folder weights and 
 python train_test_mob.py or python train_test_vgg.py
 ```
-# Personal advice: when use Mobilenet v1 to train voc datasets, use a higher learning rate at the beginning, The convergence effect may be better.
+### Personal advice: when use Mobilenet v1 to train voc datasets, use a higher learning rate at the beginning, The convergence effect may be better.
 
 If you are interested in this project, please QQ me (374873360)
